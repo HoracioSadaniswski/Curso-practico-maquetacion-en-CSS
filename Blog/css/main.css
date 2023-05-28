@@ -23,6 +23,10 @@ a {
     left: 0;
     right: 0;
 }
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
 
 header {
     width: 100%;
@@ -149,6 +153,11 @@ nav .profile-link a {
     border: 1px solid #47cfac;
     padding: 10px 15px;
     font-size: 12px;
+}
+.blogs-button:hover {
+    border: 1px solid white;
+	color: white;
+	background-color: #48CFAD;
 }
 
 .blogs-posts-container .post-container {
